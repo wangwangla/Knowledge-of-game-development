@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{fbf74e69-d680-40f3-925b-fc77dc2d1403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\pic">
+      <UniqueIdentifier>{f74fc3cd-8d95-47d5-9da0-70071d15a8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted">
+      <UniqueIdentifier>{cd4eea5a-1fe5-4f2e-82ea-09cce4043920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted\hello_triangle">
+      <UniqueIdentifier>{59661cef-2763-4a02-bd67-3e5a43a70c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted\shader">
+      <UniqueIdentifier>{11622072-19dd-497e-873f-45cc6f0803e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted\texture">
+      <UniqueIdentifier>{74e1e4fd-f652-4de8-8bf9-771ab742bdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted\transform">
+      <UniqueIdentifier>{d97e2ac8-681b-4de1-9882-76f2df485767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted\coordinate">
+      <UniqueIdentifier>{2dcb081e-0995-40a8-a49d-b95e9190c5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted\camera">
+      <UniqueIdentifier>{ed655ac8-ef3f-4641-b2ed-961fb5968385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting">
+      <UniqueIdentifier>{8e44988e-08c4-4f6c-a198-bd02c350cfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting\color">
+      <UniqueIdentifier>{cf46dd4f-1bc9-4adc-b71d-519af3a1af8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting\basiclighting">
+      <UniqueIdentifier>{3d0db650-f3b5-4b7d-a714-3d4e27f53c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting\materials">
+      <UniqueIdentifier>{e1f74a8c-6df2-4941-b60c-6e8946ac30ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting\lightingmap">
+      <UniqueIdentifier>{c4f811e3-dffd-4b40-8dd5-e0d20975bf87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting\lightcasters">
+      <UniqueIdentifier>{f431cb2c-11c4-48ba-b5ad-b6577fa7637c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LoadModel">
+      <UniqueIdentifier>{51a89119-9128-41b0-a202-dc8c0d0a5d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LoadModel\mesh">
+      <UniqueIdentifier>{2403ba19-32b8-4330-b62f-a5b3bee0eda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LoadModel\model">
+      <UniqueIdentifier>{12e82c89-442f-4534-b915-15a34f7a4763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL">
+      <UniqueIdentifier>{565171e9-8d59-4502-812f-31f374dc5673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL\DepthTesting">
+      <UniqueIdentifier>{5b356881-3cdb-46d9-b0ea-1acd0ee960e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL\StencilTesting">
+      <UniqueIdentifier>{7e2f1e3a-51ec-40ae-932b-e888dc59455e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL\Blending">
+      <UniqueIdentifier>{8059d578-f460-413a-9bad-f7fd470d7310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL\FaceCulling">
+      <UniqueIdentifier>{1598d66f-e587-4525-a3bf-c948a4bbdf0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL\FrameBuffer">
+      <UniqueIdentifier>{a076aab1-ec64-484a-b987-ac7097ed8141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL\CubMaps">
+      <UniqueIdentifier>{bf0edabe-1fff-4ce9-9c4e-53411ab01a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedOpenGL\Blending\shaders">
+      <UniqueIdentifier>{61387131-e85c-4a58-9f79-4ed008af5102}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simpleShader.cpp">
+      <Filter>源文件\GettingStarted\hello_triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaderStudy.cpp">
+      <Filter>源文件\GettingStarted\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_texture.cpp">
+      <Filter>源文件\GettingStarted\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaderHandle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transform.cpp">
+      <Filter>源文件\GettingStarted\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coordinateSys.cpp">
+      <Filter>源文件\GettingStarted\coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraStudy.cpp">
+      <Filter>源文件\GettingStarted\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>源文件\GettingStarted\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderDelegate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorStudy.cpp">
+      <Filter>源文件\Lighting\color</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicLighting.cpp">
+      <Filter>源文件\Lighting\basiclighting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MaterialStudy.cpp">
+      <Filter>源文件\Lighting\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LightingMapStudy.cpp">
+      <Filter>源文件\Lighting\lightingmap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LightCasterStudy.cpp">
+      <Filter>源文件\Lighting\lightcasters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>源文件\LoadModel\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>源文件\LoadModel\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\testModel.cpp">
+      <Filter>源文件\LoadModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StencilTestStudy.cpp">
+      <Filter>源文件\AdvancedOpenGL\StencilTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlendStudy.cpp">
+      <Filter>源文件\AdvancedOpenGL\Blending</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceCullingStudy.cpp">
+      <Filter>源文件\AdvancedOpenGL\FaceCulling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameBufferStudy.cpp">
+      <Filter>源文件\AdvancedOpenGL\FrameBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CubmapStudy.cpp">
+      <Filter>源文件\AdvancedOpenGL\CubMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BrowseDir.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\simpleShader.h">
+      <Filter>源文件\GettingStarted\hello_triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaderStudy.h">
+      <Filter>源文件\GettingStarted\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_texture.h">
+      <Filter>源文件\GettingStarted\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaderHandle.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transform.h">
+      <Filter>源文件\GettingStarted\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coordinateSys.h">
+      <Filter>源文件\GettingStarted\coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraStudy.h">
+      <Filter>源文件\GettingStarted\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>源文件\GettingStarted\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\handle.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderDelegate.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorStudy.h">
+      <Filter>源文件\Lighting\color</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BasicLighting.h">
+      <Filter>源文件\Lighting\basiclighting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MaterialStudy.h">
+      <Filter>源文件\Lighting\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LightingMapStudy.h">
+      <Filter>源文件\Lighting\lightingmap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LightCasterStudy.h">
+      <Filter>源文件\Lighting\lightcasters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>源文件\LoadModel\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model.h">
+      <Filter>源文件\LoadModel\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testModel.h">
+      <Filter>源文件\LoadModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StencilTestStudy.h">
+      <Filter>源文件\AdvancedOpenGL\StencilTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlendStudy.h">
+      <Filter>源文件\AdvancedOpenGL\Blending</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceCullingStudy.h">
+      <Filter>源文件\AdvancedOpenGL\FaceCulling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameBufferStudy.h">
+      <Filter>源文件\AdvancedOpenGL\FrameBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CubmapStudy.h">
+      <Filter>源文件\AdvancedOpenGL\CubMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BrowseDir.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resource\shaders\camera.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\camera.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\coordinate.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\coordinate.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\shaderstudy.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\shaderstudy.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\textures.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\textures.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\transform.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\transform.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\colorstudy.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\colorstudy.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\light.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\light.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\basiclight.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\basiclight.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\basiclighting.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\basiclighting.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\materialcube.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\materialcube.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\materiallight.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\materiallight.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightmapcube.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightmapcube.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightmaplight.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightmaplight.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightcastercube.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightcastercube.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightcasterlight.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\lightcasterlight.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\spotlightcube.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\spotlightcube.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\modelstudy.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\modelstudy.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\blendgrass.frag">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+    <None Include="..\resource\shaders\blendgrass.vs">
+      <Filter>源文件\AdvancedOpenGL\Blending\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resource\bird.jpg">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\child.jpg">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\crate.jpg">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\diban.jpg">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\erji.jpg">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\container2.png">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\container2_specular.png">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\matrix.jpg">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\blending_transparent_window.png">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\grass.png">
+      <Filter>resource\pic</Filter>
+    </Image>
+    <Image Include="..\resource\container.jpg">
+      <Filter>resource\pic</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
