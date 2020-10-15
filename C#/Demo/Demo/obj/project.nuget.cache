@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BGU/kReTvDdC4k0tYFAHWrMPuPaZUA1e3/P8gsQGyqSynR/k2J++z2wgNIcIHJFXrlhtbqjpZ97e/i9qdsH3fQ==",
+  "success": true,
+  "projectFilePath": "D:\\Knowledge-of-game-development\\C#\\Demo\\Demo\\Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\28188\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\28188\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
