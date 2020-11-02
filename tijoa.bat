@@ -2,11 +2,11 @@
 title GIT commit bat
 color 16
 echo start code loacl res
-echo current dir：%cd%
+echo current dir:%cd%
 
 echo start add change
 git add -A .
-echo add end！
+echo add end!
 echo;
 echo commit to local res
 set /p declation=input change msg:
