@@ -1,4 +1,4 @@
-#!/bin/bash
+@echo off
 title GIT commit bat
 color 16
 echo start code loacl res
