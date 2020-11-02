@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 intent.setClass(MainActivity.this,HomeActivity.class);
                 startActivity(intent);
             }
-        },2);
+        },2000);
     }
 }

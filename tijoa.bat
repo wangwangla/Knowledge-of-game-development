@@ -1,31 +1,21 @@
-title GIT---------------111111111111
+#!/bin/bash
+title GIT commit bat
 color 16
+echo start code loacl res
+echo current dir：%cd%
 
-
-echo 222222222222222222
-echo 333333333333：%cd%
-
-echo 44444444444
-echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo start add change
 git add -A .
-echo 555555555555555！
-echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+echo add end！
 echo;
-echo 66666666666
-echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-set /p declation=77777777777777777:
+echo commit to local res
+set /p declation=input change msg:
 git commit -m "%declation%"
-echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 echo;
-echo 88888888888888888888
-echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo code change commit remote git server
 git push origin master
-echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 echo;
-echo 99999999999999999999999999！
+echo push end！
 echo;
 
 pause
