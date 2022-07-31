@@ -1,0 +1,7 @@
+D:\Knowledge-of-game-development\C#\Demo\Demo02\bin\Debug\Demo02.exe.config
+D:\Knowledge-of-game-development\C#\Demo\Demo02\bin\Debug\Demo02.exe
+D:\Knowledge-of-game-development\C#\Demo\Demo02\bin\Debug\Demo02.pdb
+D:\Knowledge-of-game-development\C#\Demo\Demo02\obj\Debug\Demo02.csprojAssemblyReference.cache
+D:\Knowledge-of-game-development\C#\Demo\Demo02\obj\Debug\Demo02.csproj.CoreCompileInputs.cache
+D:\Knowledge-of-game-development\C#\Demo\Demo02\obj\Debug\Demo02.exe
+D:\Knowledge-of-game-development\C#\Demo\Demo02\obj\Debug\Demo02.pdb
