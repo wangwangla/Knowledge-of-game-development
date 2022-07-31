@@ -1,9 +1,0 @@
-D:\Knowledge-of-game-development\C#\Demo\Demo\bin\Debug\netstandard2.0\Demo.deps.json
-D:\Knowledge-of-game-development\C#\Demo\Demo\bin\Debug\netstandard2.0\Demo.dll
-D:\Knowledge-of-game-development\C#\Demo\Demo\bin\Debug\netstandard2.0\Demo.pdb
-D:\Knowledge-of-game-development\C#\Demo\Demo\obj\Debug\netstandard2.0\Demo.csprojAssemblyReference.cache
-D:\Knowledge-of-game-development\C#\Demo\Demo\obj\Debug\netstandard2.0\Demo.AssemblyInfoInputs.cache
-D:\Knowledge-of-game-development\C#\Demo\Demo\obj\Debug\netstandard2.0\Demo.AssemblyInfo.cs
-D:\Knowledge-of-game-development\C#\Demo\Demo\obj\Debug\netstandard2.0\Demo.csproj.CoreCompileInputs.cache
-D:\Knowledge-of-game-development\C#\Demo\Demo\obj\Debug\netstandard2.0\Demo.dll
-D:\Knowledge-of-game-development\C#\Demo\Demo\obj\Debug\netstandard2.0\Demo.pdb
