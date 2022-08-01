@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="resource">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/opengl/resource/glad.zip!/" />
+      <root url="jar://$PROJECT_DIR$/opengl/resource/glfw-3.3.2.bin.WIN32.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

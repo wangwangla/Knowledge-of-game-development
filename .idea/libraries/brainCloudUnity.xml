@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="brainCloudUnity">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/unitycode/unitycode/Demo02/Demo03/Assets/Plugins/Android/brainCloudUnity.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
